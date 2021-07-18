@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	width: calc(100%-10px); /*100%;*/
+	height: 120px;
+	/*border: 3px solid silver;*/
+	border-radius: 20px;
+	margin: 5px; /*отступы снаружи*/
+	padding: 10px; /*отступы внутри*/
+	background-color: #ffeac4 /*aqua*/;
+	opacity: 1.5; /*прозрачность*/
+
+}
+#textTelSpr{
+	font-size: 4em /*100px*/;
+	text-align: center;
+	color: darkblue;
+}
+#attention /*Внимание, если Вы обнаружили*/
+{
+       font-size: 50px;	  
+}
+h3{
+	text-align: center;
+	color: white;
+	/*background-color: royalblue;*/
+}
+#doit{
+	border: 2px solid green;
+	height: 40px;
+	margin: 10px /*сверху*/100px /*справа*/1px /*снизу*/ 100px;/*слева*/
+	padding: 1px;
+	line-height: 40px; /*выравнивание текста по вертикали*/
+	text-align: center;
+	background-color: rgb(173,255,47);
+	}
+.tablediv{
+	/*border: 2px solid green;*/
+	margin: 50px 400px 1px 400px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 1.7em;
+	color: black /*lemonchiffon*/;
+	background-color: white;
+        border-radius: 20px;
+}
+th{
+	border-bottom: 2px solid #6678b1;
+        font-size: 1.5em;
+        background-color: #bcebdd;
+}
+td{
+	 border-bottom: 1px solid #ccc;
+	 padding: 10px;
+	 font-family: 'Arial';
+}
+.trcolor:hover td{
+	background: /*green*/ #e8edff /*purple*/;}
+/*.trcolor:active  {
+	background: green;}*/
+/*div#doit: first-line {
+	color: red;
+}*/
+.trcolor:nth-child(even){
+	background: #f0f0f0;
+}
+#coit{
+	color: #AFEEEE;
+}
+#bloc1{
+	width: 100%;
+	height: 70px;
+}
+.departament{
+	background-color: #256892 /*royalblue*/;
+}
+article {
+	background-color: #eeeeee /*lightgray*/ /*gainsboro*/;
+	/*background-image: url("cerk.jpg");*/
+}
